@@ -139,14 +139,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SeaBattleApp\SeaBattleApp.vcxproj">
-      <Project>{ddc15099-068f-4130-be77-e5ee3db2147a}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Tests\Tests.vcxproj">
-      <Project>{4b7498ec-655c-40bc-be8d-fcd3f8a571af}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="SeaBattleLib.cpp" />
   </ItemGroup>
