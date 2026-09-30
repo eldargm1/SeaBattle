@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="SeaBattleLib.cpp" />
+    <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameField.h" />
