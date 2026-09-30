@@ -143,7 +143,6 @@
     <ClCompile Include="GameField.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Position.cpp" />
-    <ClCompile Include="SeaBattleLib.cpp" />
     <ClCompile Include="Ship.cpp" />
   </ItemGroup>
   <ItemGroup>

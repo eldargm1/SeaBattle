@@ -9,6 +9,9 @@ public:
     GameField& getField();
     const GameField& getField() const;
 
+    int attack(Player& enemy, Position position);
+    bool hasLost() const;
+
 private:
     std::string name;
     GameField field;

@@ -15,3 +15,11 @@ GameField& Player::getField() {
 const GameField& Player::getField() const {
     return field;
 }
+
+int Player::attack(Player& enemy, Position position) {
+    return enemy.field.shoot(position);
+}
+
+bool Player::hasLost() const {
+    return field.allShipsSunk();
+}
